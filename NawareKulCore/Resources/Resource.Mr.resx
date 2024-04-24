@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutKulvruttantTitle" xml:space="preserve">
+    <value>कुलवृत्तान्ताविषयी</value>
+  </data>
+  <data name="About_Description" xml:space="preserve">
+    <value>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+        जगांत कोणत्याही  समाजात, एका कुटुंबातील सर्व व्यक्ती (दक्षिण भारतात असलेल्या पद्धतींसारख्या काही प्रथा वगळून) एका ठराविक नावानें ओळखल्या 
+        जातात; ज्याला 'कुल-नाम'  किंवा 'आडनाव' असें म्हणतात. आज कोणत्याही कुटुंबातील व्यक्ती जवळजवळ जगभर विखुरलेल्या आहेत; परंतु इतिहासकालांत त्यांचे पूर्वज भारतातील एका लहानशा क्षेत्रांत 
+        (उदा. कोंकणातील एखाद्या जिल्ह्यांत) रहात होते. त्या काळापासून, ऐतिहासिक कागदपत्रांच्या आधारे, त्या त्या घराण्याचा आजपर्यंतचा इतिहास व वंशावळी तयार करून, त्यांत निरनिराळ्या ठिकाणी रहाणार्‍या कुलबंधूंची 
+        माहिती नोंदवून; त्या &lt;u&gt;'कुलाचें वृत्त' तयार करण्याचे बहुमोल कार्य पूर्वीच्या पिढीतील अनेक समाजधुरीणांनीं केलेले आहे.&lt;/u&gt; त्याला घराण्यांची, कुलदैवतांच्या फोटोसह कुलाबद्दलच्या सर्व माहितीची जोड देऊन 
+        &lt;u&gt;त्या कुलाचे 'कुलवृत्तान्त' तयार झालेले आहेत.&lt;/u&gt;&lt;br /&gt;
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+        प्रत्येकाला आपल्या कुळाचा अभिमान असतो, आपल्या पूर्वजांबद्दल आदर असतो, कुळाचा इतिहास जाणून घेण्याची इच्छा असते, धार्मिक वृत्तीच्या व्यक्तींना कुलदैवतांबद्दल श्रद्धा असते, आपल्या कुलातील 
+        /घराण्यातील रीतीरिवाज, सणवार, कुलाचार याची माहिती असावीशी वाटते. &lt;u&gt;&lt;b&gt; कुलवृत्तान्त हा 'कुलाचा इतिहास'च
+        आहे.&lt;/b&gt;&lt;/u&gt; म्हणून ज्याकरितां लोकांना इतिहासाची गरज भासते, त्याच कारणाकरितां कुलवृत्तान्ताची देखील गरज आहे. &lt;u&gt;पूर्वजांकडून आपल्याला मिळालेला हा अमूल्य ठेवा आहे&lt;/u&gt;; आणि त्याचे जतन करून त्यांत 
+        हल्लीच्या पिढ्यांची माहितीची भर टाकणे हें आपले आद्य कर्तव्य आहे. आपण केल्याशिवाय पुढच्या पिढ्यांना हें कसे मिळणार? &lt;br/&gt;
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+        कोणत्याही कुलवृत्तान्ताचे मुख्यत्वेकरून दोन भाग होतात, &lt;b&gt;'कायम रहाणारा(static)- या माहितीत वर्षानुवर्षे सहसा बदल होत नसतो.' &lt;/b&gt;आणि&lt;b&gt;
+         'बदलणारा(dynamic)'-&lt;/b&gt; यांत प्रत्येक घराण्याच्या 'मूळ पुरूषा' पासून आजच्या पिढीपर्यंत सर्व व्यक्ती(मृत व हयात), त्यांचे नातेसंबंध, वंशावळी, त्या व्यक्तींची असेल तेवढी माहिती आणि त्यातून निर्माण होणार्‍या 
+        स्त्री-पुरूषांच्या नात्याप्रमाणे याद्या(सूची) यांचा अंतर्भाव आहे. - ही माहिती काळनुरूप (सारखी) बदलत असते. नवीन व्यक्ती जन्माला येतात, वृद्धांचे निर्वाण होते, या कुळातील मुली लग्न होवून सासरी (दुसर्‍या कुळांत) जातात,
+         मुलांचे विवाह होवून नवीन (दुसर्‍या कुळातील) मुली सुना होवून या कुळांत येतात, इ. यामुळे कोणत्याही कुलवृत्तान्ताच्या नवीन आवृत्त्या काढल्या तरी त्यांत 'कायम' स्वरूपाची माहिती आहे तशीच राहते; पण व्यक्ती व त्याच्या
+         माहितीत 'बदल' होतात, आणि त्यानुसार वंशावळी देखील बदलतात.याच कारणामुळे कोणत्याही कुलवृत्तान्ताची नवीन आवृत्ती अगदी दरवर्षी  काढली तरी ती काढल्याच्या दुसर्‍या दिवशीसुद्धा तिला 'ताजी' म्हणणे चुकीचे होते. &lt;br/&gt;
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+        कुलवृत्तान्त &lt;u&gt;'मराठीत' तसेच 'इंग्रजीत'&lt;/u&gt;  असलेला वाचायला सोपा. पण या बाबतीत आपण हें लक्षांत  घ्यायला पाहिजे कीं कुळातल्या सर्वसाधारण व्यक्तींना 
+        कोणत्या भाषेंतील कुलवृत्तान्त वाचण्यास सोपा जातो. कुळातील काही जण जरी परदेशीं वास्तव्य करीत असले तरी भारतातच रहाणारे लोक बहुसंख्य आहेत, यांत शंका नाही. 'कुलवृत्तान्त' हा &lt;u&gt;कुलातील सगळ्यांसाठी&lt;/u&gt; असल्यानें
+         तो मातृभाषेतूनच (मराठीतून) असायला पाहिजे. 'इंग्रजीतील कुलवृत्तान्त' आपली कुटुंबसंस्था योग्य स्वरूपांत दाखवूं शकत नाहीं. &lt;br/&gt;
+        &amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+        'सून, जावई,  नात, नातसून, नातजावई, सासू, सासरे, वहिनी, मेहुणा, काका,मामा, काकू, मामी, मावशी, आत्या, आतोबा, पणजोबा, पणजी,  दत्तक गेलेला, 
+        दत्तक आलेला, मानसपुत्र, सासुरवाशीण, माहेरवाशीण, सासर, माहेर, पूर्वाश्रमीची, घराणे, इ.' या नात्यांना इंग्रजीत सुटसुटीत नावेच नसल्याने, (पाश्चात्य संस्कृतीत काका-मामा, काकू-मामी-मावशी, अशा कित्येक 
+        नातेसंबंधातला फरकच त्यांच्या ध्यानांत येत नाही) &lt;u&gt;सध्या तरी, नूतन नोंद करण्यासाठी इंग्रजीचा  पर्याय उपलब्ध आहे.&lt;/u&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="Bharadwajhrushi" xml:space="preserve">
+    <value>भारद्वाज ऋषी</value>
+  </data>
+  <data name="Bhardwaj_Desc" xml:space="preserve">
+    <value>नवरे घराण्याची 'कर्‍हाडे' ब्राम्हण शाखेत भारद्वाज कुलोत्पन्न अशी गणना केली जाते.  ऋषी भारद्वाज हे हिंदू पौराणिक कथा आणि वेदांमध्ये उल्लेखलेल्या सप्तर्षींपैकी एक ऋषी आहेत. दंडकारण्याजवळ त्यांचा आश्रम होता. ते आयुर्वेदनिपुण होते. आचार्य भारद्वाज यांनी इ.स.पूर्व ६०० वर्षे विमानशास्त्राविषयी महत्त्वाचे शोध लावले. एका ग्रहावरुन दुसर्‍या ग्रहावर उडणार्‍या व एका विश्वातून दुसर्‍या विश्वात उडणार्‍या विमानांचा शोध, तसेच विमान अदृश्य करणे यांसारखे पाश्चात्त्य संशोधक विचारही करू न शकणारे संशोधन आचार्य भारद्वाज यांनी केले होते. मुद्‌गल पुराण तसेच गणेश पुराण या ग्रंथांत दिलेल्या कथांनुसार, अंगारक किंवा मंगळ हा ऋषी भारद्वाज यांचा पुत्र आहे</value>
+  </data>
+  <data name="Dhopeshwar_Desc" xml:space="preserve">
+    <value>&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;u&gt; “धोपेश्वर” देवस्थान हे राजापूर तालुक्या मधील धोपेश्वर खेडयातील प्रसिद्ध मंदीर आहे. &lt;/u&gt;
+          &amp;nbsp;धुतपापेश्वरच्या केवळ दर्शनानेच पापे धुतली जातात आणि त्यामुळेच पाप धुणारा देव म्हणून धुतपापेशवर हे देवस्थान पूर्वापार प्रसिद्ध आहे. हे शिवमंदिर फार पुरातन आहे  तथापि,१५ ते २० वर्षापूर्वी   
+          या मंदिराचे जिर्णोधाराचे काम पूर्वीच्या लाकडावरील कोरीवनक्षीकाम कायम ठेवून गाभार्यारच दगडी तर सभामंडपाचे लाकडी काम  नव्याने करण्यात आले. अलीकडे १० ते १५ वर्षाच्या काळात मंदिराकडे जाणारा 
+          दुसरा पक्का डांबरी रस्ता बांधनेत आला आहे.&amp;nbsp; धोपेश्वर हे राजापूर पासून ५ किलोमीटर अंतरावर आहे,.&lt;/p&gt;
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+        तुम्हाला इथे नेहमी भाविकांची गर्दी दिसेल, हे मंदीर मुर्दणी नदीच्या काठी वसलेले आहे, हे प्राचीन काळातील मंदीर आहे. ह्या मंदिराच्या आजूबाजूचे निसर्ग सौंदर्य हे अप्रतिम आहे, मंदिराच्या दोन्ही बाजूला मोठे-मोठे 
+        पर्वत आहेत आणि त्या पर्वतावरून कोसळणार्‍या नद्या त्या सौंदर्यात भर घालतात. मुर्दणी नदी ही उंच पर्वतावरून कोसळते त्यामुळे मंदिराजवळ सुंदर धबधबा आहे, थोड्या प्रमाणात यात्री हा धबधबा बघायला येतात. 
+        हा धबधबा बघण्यासाठी सुंदर कालावधी म्हणजे जुलै ते नोव्हेंबर हा होय. ह्या कलावधीत तिथे खूप पाणी असते तसेच सोमवारी आणि महाशिवरात्री ला प्रचंड गर्दी असते.
+        &lt;br /&gt;&lt;br /&gt;
+        &lt;u&gt;&lt;b&gt;तिथे कसे जायचे :-&lt;/b&gt;&lt;/u&gt; धोपेश्वर हे राजापूर हून ५ कि. मी. अंतरावर आहे, तिथे जाण्यासाठी राजापूर हून गाडया उपलब्ध आहेत.&lt;br /&gt;&lt;br /&gt;
+        &lt;u&gt;&lt;b&gt; जाण्याचा मार्ग :-&lt;/b&gt;&lt;/u&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="Dhupeshwar" xml:space="preserve">
+    <value>धोपेश्वर</value>
+  </data>
+  <data name="Dhupeshwar_Title" xml:space="preserve">
+    <value>धोपेश्वर(धूतपापेश्वर)</value>
+  </data>
+  <data name="FamilyTree" xml:space="preserve">
+    <value>वंशावळ</value>
+  </data>
+  <data name="FamousPersons" xml:space="preserve">
+    <value>प्रसिद्ध व्यक्ति</value>
+  </data>
+  <data name="F_Education" xml:space="preserve">
+    <value>शिक्षण</value>
+  </data>
+  <data name="F_Informatio" xml:space="preserve">
+    <value>माहिती</value>
+  </data>
+  <data name="F_MainWork" xml:space="preserve">
+    <value>प्रमुख ग्रंथसंपदा</value>
+  </data>
+  <data name="F_Name" xml:space="preserve">
+    <value>नाव</value>
+  </data>
+  <data name="F_Work" xml:space="preserve">
+    <value>कार्य</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>मुख्य पानाकडे</value>
+  </data>
+  <data name="NawarePeople" xml:space="preserve">
+    <value>कुळातील व्यक्ति</value>
+  </data>
+  <data name="OnlineForm" xml:space="preserve">
+    <value>ऑनलाइन फॉर्म</value>
+  </data>
+  <data name="Prastavna" xml:space="preserve">
+    <value>प्रस्तावना</value>
+  </data>
+  <data name="Prastavna_Description" xml:space="preserve">
+    <value>'कुलवृत्तान्त' म्हणजे 'पुस्तक' ही कल्पना पूर्वीच्या सर्व पिढ्यांमध्ये (निदान छपाई कलेचा शोध लागल्यापासून) अस्तित्त्वांत होती. मुद्रण-कलेचा शोध तसा अलीकडला म्हणजे हा फारतर ३००-४०० वर्षांपूर्वीं लागलेला आहे. त्याअगोदर ताम्रपटावर, दगडावर, भिंतीवर, अशा अनेक ठिकाणीं भारतीय, चिनी, इजिप्तशियन अशा प्राचीन संस्कृतींतील इतिहासातील घटना नोंदविलेल्या होत्या- कारण उघड आहे - त्यावेळीं जे माध्यम उपलब्ध होते त्याचा वापर होत गेला. अती-प्राचीन काळापासून कोणतेही माध्यम उपलब्ध नसल्यामुळे 'वेद' हे पिढ्यान पिढ्या मुखोद्गत(मौखिक) स्वरूपांत जतन केले गेले. सारांश काय, त्यावेळीं जें माध्यम सहज उपलब्ध झाले, त्याचा वापर होत गेला. कोणत्याही कुलवृत्तान्ताची पूर्वीची आवृत्ती प्रकशित झाली तेव्हां (इ.स. 1980 च्या सुमारास किंवा त्यापूर्वी) 'इंटरनेट' उपलब्धच नव्हते, मुद्रण हेंच एकमेव माध्यम उपलब्ध असल्यानें, तो छापायलाच लागत होता. आज 21 व्या शतकांत परिस्थिती बदलली आहे, इंटरनेट जगभर (अगदी भारतांत सुद्धा खेडोपाडी) पोहोचलेले आहे आणि आज वेबवर डेटाबेस करून कुलवृत्तान्त करणें, हें तो छापण्यापेक्षां स्वस्त झालेले आहे.</value>
+  </data>
+  <data name="UserGuide" xml:space="preserve">
+    <value>वापराबद्दल मार्गदर्शिका</value>
+  </data>
+  <data name="WelcomeText" xml:space="preserve">
+    <value>नवरे कुलवृत्तान्ताच्या या संकेतस्थळावर स्वागत आहे</value>
+  </data>
+  <data name="FamousPeople" xml:space="preserve">
+    <value>नवरे कुटुंबातील प्रसिद्ध व्यक्तींची माहिती</value>
+  </data>
+</root>

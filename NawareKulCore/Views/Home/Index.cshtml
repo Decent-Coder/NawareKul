@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    ViewBag.IsFirstPage = true;
+}
+
+<div class="container naware-home-img">
+    <h3 class="text-center home-page-label">नवरे कुलवृत्तान्ताच्या या संकेतस्थळावर स्वागत आहे</h3>
+    <div class="text-left home-page-actions">
+        @Html.ActionLink("मराठी आवृत्ती", "MainDashboard", new { language = "Mr" })
+        @Html.ActionLink("English version", "MainDashboard",new { language = "En" })
+    </div>
+
+</div>

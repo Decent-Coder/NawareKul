@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutKulvruttantTitle" xml:space="preserve">
+    <value>About Kulvruttant</value>
+  </data>
+  <data name="About_Description" xml:space="preserve">
+    <value>A typical name is identified in any society, except in a family (except in South American customs); They are called 'first names' or 'last names'. Today the people of any family are almost scattered around the world; But during the history, his ancestors lived in a small area of ​​India (in a district of Konkan). From that time, on the basis of historical documents, by making history and genealogy of that family till date, by registering information about the clans in different places; The task of creating a valuable 'kulacem news is that many samajadhurinannim previous generation. Let him add all the information about the family with the photos of the family and the statue The 'Kulvruttant' of that clan has been prepared. 
+             Everyone is proud of his family, respect for his ancestors, there is a desire to know the history of the tribe, religious people believe in patriotism, should know about the customs, family, customs and culture of their family / family. Kulvruttant is a 'history of the caste'. Therefore, for which reason people need history, there is also a need for Kulavantata. This priceless possession we received from the ancestors ; And it is our first duty to save the information of the present generations. How can we get it next generation without you? 
+             Any Kulvruttant mainly consists of two parts,'Static' - This information is usually not changed for many years. ' And 'dynamic' -In this section, there is a list of all the persons (the dead and the survivor), their relationship, genealogy, as well as those persons from the 'original male' to the present generation, and the list of women and men as per the relations between them. - This information varies from time to time (like). New persons are born, old people are Nirvana, girls of this family get married to Sasari (to another clan); Children get married and come to these families after getting married. This makes new versions of any cosmogonous but it remains the same as 'permanent' form; But the changes in the person and his information become 'changes', and accordingly, the genealogy also changes. For the same reason, a new version of any Koli Dynasty can be removed every year, even after the second day of its release, 'fresh'
+It is easy to read              Kulvruttant in 'Marathi' and 'In English' . But in this case, we should take into account the simplicity of which language of the common people of the language is easy to read. Although some people of the family live overseas, there is no doubt about the vast majority of people living in India. Since 'Kulvruttant' is for everyone in the class , it must be from the mother tongue (from Marathi). Can not show our family organization in the proper form of 'Kulvruttant in English'
+              'Son, son-in-law, granddaughter, grand daughter-in-law, sister-in-law, father-in-law, sister-in-law, uncle, mama, kaku, mami, mawshi, aata, atoba, vaishoba, panaji, adoptive, adoptive, manasputra, saasurwasin, Mahervasin , Maher, Presharmi, Ghatana, etc. ' Since there are no names in English, they have the option of English to make a new entry. However, there is an alternative to English to write a new language.</value>
+  </data>
+  <data name="Bharadwajhrushi" xml:space="preserve">
+    <value>Bharadwaj rushi</value>
+  </data>
+  <data name="Bhardwaj_Desc" xml:space="preserve">
+    <value>Naware households are counted as Bharadwaj Kunalpan at 'Karhade' Brahmin branch. Rishi Bharadwaj is a Hindu mythology and one of the sages who are mentioned in the Vedas. He was an ashram near Dandakaranya. They were supplementary. Acharya Bhardwaj explored 600 years ago for his astronomy. Acharya Bharadwaj had done research that could fly from one planet to another, and could not even think of Western researchers such as inventing a plane flying from one universe to another, and flying the aircraft. According to the stories given in Mudgal Purana and Ganesh Purana, Angarak or Mangal is the son of Rishi Bharadwaj</value>
+  </data>
+  <data name="Dhopeshwar_Desc" xml:space="preserve">
+    <value>&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;u&gt; “धोपेश्वर” देवस्थान हे राजापूर तालुक्या मधील धोपेश्वर खेडयातील प्रसिद्ध मंदीर आहे. &lt;/u&gt;
+          &amp;nbsp;धुतपापेश्वरच्या केवळ दर्शनानेच पापे धुतली जातात आणि त्यामुळेच पाप धुणारा देव म्हणून धुतपापेशवर हे देवस्थान पूर्वापार प्रसिद्ध आहे. हे शिवमंदिर फार पुरातन आहे  तथापि,१५ ते २० वर्षापूर्वी   
+          या मंदिराचे जिर्णोधाराचे काम पूर्वीच्या लाकडावरील कोरीवनक्षीकाम कायम ठेवून गाभार्यारच दगडी तर सभामंडपाचे लाकडी काम  नव्याने करण्यात आले. अलीकडे १० ते १५ वर्षाच्या काळात मंदिराकडे जाणारा 
+          दुसरा पक्का डांबरी रस्ता बांधनेत आला आहे.&amp;nbsp; धोपेश्वर हे राजापूर पासून ५ किलोमीटर अंतरावर आहे,.&lt;/p&gt;
+        &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+        तुम्हाला इथे नेहमी भाविकांची गर्दी दिसेल, हे मंदीर मुर्दणी नदीच्या काठी वसलेले आहे, हे प्राचीन काळातील मंदीर आहे. ह्या मंदिराच्या आजूबाजूचे निसर्ग सौंदर्य हे अप्रतिम आहे, मंदिराच्या दोन्ही बाजूला मोठे-मोठे 
+        पर्वत आहेत आणि त्या पर्वतावरून कोसळणार्‍या नद्या त्या सौंदर्यात भर घालतात. मुर्दणी नदी ही उंच पर्वतावरून कोसळते त्यामुळे मंदिराजवळ सुंदर धबधबा आहे, थोड्या प्रमाणात यात्री हा धबधबा बघायला येतात. 
+        हा धबधबा बघण्यासाठी सुंदर कालावधी म्हणजे जुलै ते नोव्हेंबर हा होय. ह्या कलावधीत तिथे खूप पाणी असते तसेच सोमवारी आणि महाशिवरात्री ला प्रचंड गर्दी असते.
+        &lt;br /&gt;&lt;br /&gt;
+        &lt;u&gt;&lt;b&gt;तिथे कसे जायचे :-&lt;/b&gt;&lt;/u&gt; धोपेश्वर हे राजापूर हून ५ कि. मी. अंतरावर आहे, तिथे जाण्यासाठी राजापूर हून गाडया उपलब्ध आहेत.&lt;br /&gt;&lt;br /&gt;
+        &lt;u&gt;&lt;b&gt; जाण्याचा मार्ग :-&lt;/b&gt;&lt;/u&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="Dhupeshwar" xml:space="preserve">
+    <value>Dhopeshwar</value>
+  </data>
+  <data name="Dhupeshwar_Title" xml:space="preserve">
+    <value>Dhopeshwar</value>
+  </data>
+  <data name="FamilyTree" xml:space="preserve">
+    <value>FamilyTree</value>
+  </data>
+  <data name="FamousPersons" xml:space="preserve">
+    <value>Famous Persons</value>
+  </data>
+  <data name="F_Education" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="F_Informatio" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="F_MainWork" xml:space="preserve">
+    <value>MainWork</value>
+  </data>
+  <data name="F_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="F_Work" xml:space="preserve">
+    <value>Work</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="NawarePeople" xml:space="preserve">
+    <value>Naware People</value>
+  </data>
+  <data name="OnlineForm" xml:space="preserve">
+    <value>Online Form</value>
+  </data>
+  <data name="Prastavna" xml:space="preserve">
+    <value>Prastavna</value>
+  </data>
+  <data name="Prastavna_Description" xml:space="preserve">
+    <value>The concept of 'Kulavruttanta' means 'Family tree' existed in all previous generations (since the discovery of diagnostic printing techniques) existed. The recent findings of print-art as it has been in the past 300-400 years ago. Earlier, there were reports of ancient civilizations such as Indian, Chinese, Egyptian, in many places like copper, stone, on the wall, because it is obvious - the medium used to be available was then used. Due to the absence of any medium since ancient times, the Vedas were preserved in the generation of oral sex. In summary, when the media became easily available, it was being used. When a previous version of any Nobel Prize was published (around or around 1980), 'Internet' was not available; printing had to be printed only if there was only one available medium. Today, the situation has changed in the 21st century, the internet has reached the whole world (even in India's rural areas) and today it is time to make a database through the database on the web, it has been cheaper than print.</value>
+  </data>
+  <data name="UserGuide" xml:space="preserve">
+    <value>User Guide</value>
+  </data>
+  <data name="WelcomeText" xml:space="preserve">
+    <value>Welcome to Naware Kulvruttant Website</value>
+  </data>
+  <data name="FamousPeople" xml:space="preserve">
+    <value>Famous people in Naware Family</value>
+  </data>
+</root>

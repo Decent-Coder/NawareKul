@@ -1,0 +1,64 @@
+﻿@model IEnumerable<NawareKulCore.DataBL.NawarePeopleDTO>
+
+@{
+    ViewBag.Title = @NawareKulCore.Resources.Resource.NawarePeople;
+}
+
+<h2>@NawareKulCore.Resources.Resource.NawarePeople</h2>
+
+<table class="table" border="1">
+    <tr>
+        <th class="table-header">
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th class="table-header">
+            @Html.DisplayNameFor(model => model.City)
+        </th>
+        <th class="table-header">
+            @Html.DisplayNameFor(model => model.STD)
+        </th>
+        <th class="table-header">
+            @Html.DisplayNameFor(model => model.Phone)
+        </th>
+        <th class="table-header">
+            @Html.DisplayNameFor(model => model.Address)
+        </th>
+        <th class="table-header">
+            @Html.DisplayNameFor(model => model.Area)
+        </th>
+        <th class="table-header">
+            @Html.DisplayNameFor(model => model.PinCode)
+        </th>
+        <th class="table-header"></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.City)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.STD)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Area)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PinCode)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) 
+        </td>
+    </tr>
+}
+
+</table>

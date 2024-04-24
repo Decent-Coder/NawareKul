@@ -1,0 +1,54 @@
+﻿@model NawareKulCore.Models.FamousPeopleViewModel
+@{
+    ViewBag.Title = @NawareKulCore.Resources.Resource.FamousPeople;
+}
+
+
+<h2 class="text-center">@NawareKulCore.Resources.Resource.FamousPeople</h2>
+<div class="row">
+
+
+    @foreach (var people in Model.ListOfFamousPeople)
+    {
+        if (!string.IsNullOrEmpty(people.Name))
+        {
+            <div class="row">
+                <div class="col-sm-8">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <b>@NawareKulCore.Resources.Resource.F_Name</b>
+                            <span>@people.Name</span>
+                        </li>
+                        <li class="list-group-item">
+                            <b>@NawareKulCore.Resources.Resource.F_Education</b>
+                            <span>@people.Education</span>
+                        </li>
+                        <li class="list-group-item">
+                            <b>@NawareKulCore.Resources.Resource.F_Work</b>
+                            <span>@people.MainWork</span>
+                        </li>
+                        <li class="list-group-item">
+                            <b>@NawareKulCore.Resources.Resource.F_MainWork</b>
+                            <span>@people.MainWork</span>
+                        </li>
+                        <li class="list-group-item">
+                            <b>@NawareKulCore.Resources.Resource.F_Informatio</b>
+                            <span>@people.Information</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <img src="@people.SrcPath" width="150px" height="150px" />
+                </div>
+            </div>
+        }
+    }
+    <div class="col-sm-4">
+        <div class="well">
+            <p>Some text..</p>
+        </div>
+
+    </div>
+</div>
+
+

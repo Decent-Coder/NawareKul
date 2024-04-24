@@ -1,0 +1,93 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+	
+	<ItemGroup>
+		<Content Include="Images\1.jpg" />
+		<Content Include="Images\111.JPG" />
+		<Content Include="Images\2.JPG" />
+		<Content Include="Images\3.JPG" />
+		<Content Include="Images\4.JPG" />
+		<Content Include="Images\5.JPG" />
+		<Content Include="Images\6.JPG" />
+		<Content Include="Images\7.jpg" />
+		<Content Include="Images\71_big.jpg" />
+		<Content Include="Images\aaa.JPG" />
+		<Content Include="Images\b.JPG" />
+		<Content Include="Images\back.jpg" />
+		<Content Include="Images\blackpanel.PNG" />
+		<Content Include="Images\blank.jpg" />
+		<Content Include="Images\btn1.JPG" />
+		<Content Include="Images\contentFooter.jpg" />
+		<Content Include="Images\favicon.ico" />
+		<Content Include="Images\image1.jpg" />
+		<Content Include="Images\image2.jpg" />
+		<Content Include="Images\image3.jpg" />
+		<Content Include="Images\img.PNG" />
+		<Content Include="Images\img05.jpg" />
+		<Content Include="Images\img741.jpg" />
+		<Content Include="Images\index_01.jpg" />
+		<Content Include="Images\index_02.jpg" />
+		<Content Include="Images\index_03.jpg" />
+		<Content Include="Images\index_04.jpg" />
+		<Content Include="Images\index_05.jpg" />
+		<Content Include="Images\index_06.jpg" />
+		<Content Include="Images\index_07.jpg" />
+		<Content Include="Images\index_08.jpg" />
+		<Content Include="Images\index_09.jpg" />
+		<Content Include="Images\j.JPG" />
+		<Content Include="Images\kalikadewi.jpg" />
+		<Content Include="Images\left_button.jpg" />
+		<Content Include="Images\left_button_hover.jpg" />
+		<Content Include="Images\map.jpg" />
+		<Content Include="Images\newback.jpg" />
+		<Content Include="Images\newbackg.jpg" />
+		<Content Include="Images\next.png" />
+		<Content Include="Images\om wallpaper969.jpg" />
+		<Content Include="Images\ombackground.jpg" />
+		<Content Include="Images\om_wallpaper969.jpg" />
+		<Content Include="Images\prev.png" />
+		<Content Include="Images\red-random-colors-1920x1037.jpg" />
+		<Content Include="Images\redline.jpg" />
+		<Content Include="Images\snnaware.jpg" />
+		<Content Include="Images\spacer.gif" />
+		<Content Include="Images\title_1.png" />
+		<Content Include="Images\top_button.jpg" />
+		<Content Include="Images\top_button_hover.jpg" />
+		<Content Include="Images\untitled.JPG" />
+		<Content Include="Images\vimanas .jpg" />
+		<Content Include="Images\vimanas1.bmp" />
+	</ItemGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="Resources\Resource.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Resource.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Update="Resources\Resource.resx">
+			<LastGenOutput>Resource.Designer.cs</LastGenOutput>
+			<Generator>PublicResXFileCodeGenerator</Generator>
+		</EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Images\" />
+	  <Folder Include="Models\" />
+	  <Folder Include="Resources\" />
+	</ItemGroup>
+	
+</Project>

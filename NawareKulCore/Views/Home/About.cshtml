@@ -1,0 +1,13 @@
+﻿@model NawareKulCore.Models.AboutKulvruttant
+@using NawareKulCore.Resources
+@{
+    ViewBag.Title = "About";
+}
+<h2 class="text-center">@Html.LabelFor(n=>n.Title)</h2>
+<h3>@ViewBag.Message</h3>
+
+
+
+<p>
+    @Html.Raw(Resource.About_Description)
+</p>
